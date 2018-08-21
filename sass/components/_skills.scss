@@ -4,30 +4,30 @@
     position: relative;
     display: inline-block;
     color:$color-grey-light-2;
-    font-size: 2rem;
+    
     text-align: center;
   }
 
   &__caption {
     padding: 5rem 2.5rem;
-    width:19rem;
-    height: 19rem;
-    border: 2rem solid $color-grey-dark-2;
-    border-radius: 10rem;
-    line-height: 5rem;
+    width: 190px;
+    height: 190px;
+    border: 20px solid $color-grey-dark-2;
+    border-radius: 100px;
+    line-height: 50px;
 
     
   }
 
   &__img {
     position: absolute;
-    max-width: 10rem;
-    max-height: 10rem;
+    max-width: 100px;
+    max-height: 100px;
     background: transparent;
 
     &--html {
-      top: 5rem;
-      left: 4.5rem;
+      top: 50px;
+      left: 45px;
 
       & + svg .skills__outer {
         stroke: #e34f26;
@@ -35,8 +35,8 @@
     }
 
     &--css {
-      top: 5.5rem;
-      left: 4.8rem;
+      top: 55px;
+      left: 48px;
 
       & + svg .skills__outer {
         stroke: #0d84ce;
@@ -44,8 +44,8 @@
     }
 
     &--sass {
-      top: 6rem;
-      left: 5rem;
+      top: 60px;
+      left: 50px;
 
       & + svg .skills__outer{
         stroke: #cd6799;
@@ -53,8 +53,8 @@
     }
 
     &--javascript {
-      top: 4.5rem;
-      left: 4.5rem;
+      top: 45px;
+      left: 45px;
 
       & + svg .skills__outer {
         stroke: #f0e040;
@@ -62,8 +62,8 @@
     }
 
     &--react {
-      top: 4.5rem;
-      left: 4.7rem;
+      top: 45px;
+      left: 47px;
 
       & + svg .skills__outer{
         stroke: #61dbfb;
@@ -71,8 +71,8 @@
     }
 
     &--jquery {
-      top: 4.5rem;
-      left: 4.7rem;
+      top: 45px;
+      left: 47px;
 
       & + svg .skills__outer{
         stroke: #0c76b8;
@@ -80,8 +80,8 @@
     }
 
     &--php {
-      top: 4.5rem;
-      left: 4.7rem;
+      top: 45px;
+      left: 47px;
 
       & + svg .skills__outer{
         stroke: $color-black;
@@ -89,8 +89,8 @@
     }
 
     &--csharp {
-      top: 4.5rem;
-      left: 4.7rem;
+      top: 45px;
+      left: 47px;
 
       & + svg .skills__outer {
         stroke: #742b6f;
