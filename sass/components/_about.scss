@@ -1,0 +1,49 @@
+.about {
+    width: 75%;
+    
+    margin: 0 auto;
+    box-shadow: 0 1.5rem 3rem rgba($color-black,0.1);
+    border-radius: 3px;
+    padding: 6rem;
+    padding-left: 9rem;
+
+    @include respond(tab-port) {
+        width: 100%;
+        padding: 4rem;
+        transform: skewX(0);
+		
+    }
+
+    
+
+    font-size: $default-font-size;
+    transform: skew(-12deg);
+    position: relative;
+    background-color:$color-white;
+
+    &__picture {       
+        float: left;       
+        transform: skewX(12deg);   
+
+        @include respond(tab-port) {
+            transform: skewX(0);
+           
+        }
+        
+        @include respond(phone) {
+            max-width: 30rem;
+            max-height: 30rem;
+        }
+    }
+    &__text {
+        transform: skewX(12deg);
+        float: right;
+
+        @include respond(tab-port) {
+            transform: skewX(0);
+            
+		}
+    }
+   
+
+}

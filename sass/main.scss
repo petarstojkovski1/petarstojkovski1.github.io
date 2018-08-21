@@ -1,0 +1,21 @@
+@import "abstracts/animations";
+@import "abstracts/mixins";
+@import "abstracts/utilities";
+@import "abstracts/variables";
+
+@import "base/base";
+@import "base/typography";
+
+@import "components/bg_video";
+@import "components/about";
+@import "components/hobby-box";
+@import "components/skills";
+@import "components/project";
+
+@import "layout/grid";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/navigation";
+
+@import "pages/home";
+ 

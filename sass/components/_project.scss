@@ -1,0 +1,17 @@
+.project {
+    text-align: center;
+    &__img {
+        max-width: 40rem;
+        max-height: 40rem;
+        margin-bottom: 5rem;
+
+        @include respond(phone) {
+            max-width: 30rem;
+            max-height: 30rem;
+        }
+    }
+
+    &__text {
+        font-size: 2rem;
+    }
+}

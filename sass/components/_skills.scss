@@ -1,0 +1,176 @@
+.skills {
+
+  &__item {
+    position: relative;
+    display: inline-block;
+    color:$color-grey-light-2;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  &__caption {
+    padding: 5rem 2.5rem;
+    width:19rem;
+    height: 19rem;
+    border: 2rem solid $color-grey-dark-2;
+    border-radius: 10rem;
+    line-height: 5rem;
+
+    
+  }
+
+  &__img {
+    position: absolute;
+    max-width: 10rem;
+    max-height: 10rem;
+    background: transparent;
+
+    &--html {
+      top: 5rem;
+      left: 4.5rem;
+
+      & + svg .skills__outer {
+        stroke: #e34f26;
+      }
+    }
+
+    &--css {
+      top: 5.5rem;
+      left: 4.8rem;
+
+      & + svg .skills__outer {
+        stroke: #0d84ce;
+      }
+    }
+
+    &--sass {
+      top: 6rem;
+      left: 5rem;
+
+      & + svg .skills__outer{
+        stroke: #cd6799;
+      }
+    }
+
+    &--javascript {
+      top: 4.5rem;
+      left: 4.5rem;
+
+      & + svg .skills__outer {
+        stroke: #f0e040;
+      }
+    }
+
+    &--react {
+      top: 4.5rem;
+      left: 4.7rem;
+
+      & + svg .skills__outer{
+        stroke: #61dbfb;
+      }
+    }
+
+    &--jquery {
+      top: 4.5rem;
+      left: 4.7rem;
+
+      & + svg .skills__outer{
+        stroke: #0c76b8;
+      }
+    }
+
+    &--php {
+      top: 4.5rem;
+      left: 4.7rem;
+
+      & + svg .skills__outer{
+        stroke: $color-black;
+      }
+    }
+
+    &--csharp {
+      top: 4.5rem;
+      left: 4.7rem;
+
+      & + svg .skills__outer {
+        stroke: #742b6f;
+      }
+    }
+  }
+
+  & svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  &__outer {
+    fill: transparent;
+    stroke: #333;
+    stroke-width: 20;
+    stroke-dasharray: 534;
+    transition: stroke-dashoffset 1s;
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+    -moz-transform: rotate(-90deg) translateX(-19rem) translateY(0.5px);
+  }
+
+  &__item:hover &__outer {
+    stroke-dashoffset: 534 !important;
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+  }
+
+  &__item[data-percent='100'] &__outer {
+    stroke-dashoffset: 0;
+    -webkit-animation: show100 2s;
+    animation: show100 2s;
+  }
+  &__item[data-percent='90'] &__outer {
+    stroke-dashoffset: 46;
+    -webkit-animation: show90 2s;
+    animation: show90 2s;
+  }
+  
+  &__item[data-percent='75'] &__outer {
+    stroke-dashoffset: 124;
+    -webkit-animation: show75 2s;
+    animation: show75 2s;
+  }
+  &__item[data-percent='60'] &__outer {
+    stroke-dashoffset: 200;
+    -webkit-animation: show60 2s;
+    animation: show60 2s;
+  }
+  
+  &__item[data-percent='40'] &__outer {
+    stroke-dashoffset: 330;
+    -webkit-animation: show40 2s;
+    animation: show40 2s;
+  }
+
+  &__item[data-percent='50'] &__outer {
+    stroke-dashoffset: 267;
+    -webkit-animation: show50 2s;
+    animation: show50 2s;
+  }
+  
+  &__item[data-percent='25'] &__outer {
+    stroke-dashoffset: 401;
+    -webkit-animation: show25 2s;
+    animation: show25 2s;
+  }
+}
+
+  
+// .chart:hover .outer {
+//     stroke-dashoffset: 534 !important;
+//     -webkit-animation-play-state: paused;
+//     animation-play-state: paused;
+//   }
+
+  //Initial values for animations
+
+  
+
+ 

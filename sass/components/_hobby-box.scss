@@ -1,0 +1,37 @@
+.hobby-box {
+    background-color: $color-grey-light-2;
+    transform: skewX(12deg);
+    font-size: $default-font-size;
+    padding: 2.5rem;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+    transition: all .3s;
+
+    @include respond(tab-port) {
+        transform: skewX(0);
+    }
+    
+    &__icon {
+        font-size: 6rem;
+        display: inline-block;
+        background-image: linear-gradient(to right, $color-violet-dark, $color-violet-light);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+
+    &:hover {
+        transform: translateY(-1.5rem) scale(1.03) skewX(12deg);
+
+        @include respond(tab-port) {
+            transform:  translateY(-1.5rem) scale(1.03) skewX(0);
+            
+		}
+    }
+
+    &__text {
+        font-size: 1.4rem;
+    }
+
+}

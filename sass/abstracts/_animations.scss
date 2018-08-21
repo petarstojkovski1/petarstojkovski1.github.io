@@ -1,0 +1,92 @@
+//Animation for header text
+@keyframes moveInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-10rem);
+	}
+	80% {
+		transform: translateX(1rem);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+
+//Animations for skills circle
+
+  
+  @keyframes show100 {
+	from {
+	  stroke-dashoffset: 537;
+	}
+	
+	to {
+	  stroke-dashoffset: 0;
+	}
+  }
+  
+  @keyframes show90 {
+	from {
+	  stroke-dashoffset: 537;
+	}
+	
+	to {
+	  stroke-dashoffset: 46;
+	}
+  }
+
+  
+  @keyframes show75 {
+	from {
+	  stroke-dashoffset: 537;
+	}
+	
+	to {
+	  stroke-dashoffset: 124;
+	}
+  }
+  
+  @keyframes show60 {
+	from {
+	  stroke-dashoffset: 537;
+	}
+	
+	to {
+	  stroke-dashoffset: 200;
+	}
+  }
+
+  @keyframes show50 {
+	from {
+	  stroke-dashoffset: 537;
+	}
+	
+	to {
+	  stroke-dashoffset: 267;
+	}
+  }
+
+
+  
+  @keyframes show40 {
+	from {
+	  stroke-dashoffset: 537;
+	}
+	
+	to {
+	  stroke-dashoffset: 330;
+	}
+  }
+
+  
+  @keyframes show25 {
+	from {
+	  stroke-dashoffset: 537;
+	}
+	
+	to {
+	  stroke-dashoffset: 401;
+	}
+  }
