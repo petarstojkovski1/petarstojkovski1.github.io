@@ -112,7 +112,6 @@
     transition: stroke-dashoffset 1s;
     -webkit-animation-play-state: running;
     animation-play-state: running;
-    -moz-transform: rotate(-90deg) translateX(-19rem) translateY(0.5px);
   }
 
   &__item:hover &__outer {

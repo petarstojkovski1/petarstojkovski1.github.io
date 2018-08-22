@@ -3,15 +3,22 @@
     &__img {
         max-width: 40rem;
         max-height: 40rem;
-        margin-bottom: 5rem;
+        margin-bottom: 3rem;
+        
 
-        @include respond(phone) {
+        @include respond(tab-port) {
             max-width: 30rem;
             max-height: 30rem;
         }
     }
 
+    &__link {
+        display: block;
+    }
+
+
+
     &__text {
-        font-size: 2rem;
+        font-size: $default-font-size;
     }
 }

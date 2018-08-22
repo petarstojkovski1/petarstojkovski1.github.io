@@ -21,8 +21,7 @@
     [class^="col-"] {
         float: left;
         @include respond(tab-port) {
-                  display: flex;
-                justify-content: center;
+            width: 100% !important;
         }
         &:not(:last-child) {
             margin-right: $gutter-horizontal;
@@ -30,6 +29,8 @@
             @include respond(tab-port) {
                 margin-right: 0;
                 margin-bottom: $gutter-vertical-small;
+
+                
 
             }
         }
@@ -52,9 +53,7 @@
     .col-1-of-4 {
         width: calc((100% - 3 * #{$gutter-horizontal}) /4);
 
-        @include respond(tab-port) {
-            width: 100% !important;
-        }
+       
     }
     .col-2-of-4 {
         width: calc(2*((100% - 3 * #{$gutter-horizontal}) /4) + #{$gutter-horizontal} );

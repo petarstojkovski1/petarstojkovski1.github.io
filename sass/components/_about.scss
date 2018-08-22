@@ -11,10 +11,10 @@
         width: 100%;
         padding: 4rem;
         transform: skewX(0);
+        //Treba da se uradi slika, to se radi u img ne u div konteineru
+        //Treba da se slika iz projekta sredi i da se flex promeni, mozda i da ostane ali da se promeni redosled
 		
     }
-
-    
 
     font-size: $default-font-size;
     transform: skew(-12deg);
@@ -30,11 +30,6 @@
             transform: skewX(0);
            
         }
-        
-        @include respond(phone) {
-            max-width: 30rem;
-            max-height: 30rem;
-        }
     }
     &__text {
         transform: skewX(12deg);
@@ -44,6 +39,10 @@
             transform: skewX(0);
             
 		}
+    }
+    &__image {
+        max-width: 40rem;
+        max-height: 40rem;
     }
    
 

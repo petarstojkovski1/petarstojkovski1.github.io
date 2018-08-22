@@ -42,15 +42,15 @@ body {
 }
 
 .heading-2 {
-	font-size: 3.5rem;
+	font-size: 3rem;
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 2px;
 	color: $color-violet-dark;
 
-	@include respond(tab-port) {
-		font-size: 3rem;
-	}
+	// @include respond(tab-port) {
+	// 	font-size: 3rem;
+	// }
 
 	@include respond(phone) {
 		font-size: 2.5rem;
@@ -59,7 +59,8 @@ body {
 	
 }
 .heading-3 {
-	font-size: 2.5rem;
+	font-size: 2rem;
 	font-weight: 700;
 	text-transform: uppercase;
+	color: $color-violet-dark;
 }
