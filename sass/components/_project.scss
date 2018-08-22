@@ -4,8 +4,6 @@
         max-width: 40rem;
         max-height: 40rem;
         margin-bottom: 3rem;
-        
-
         @include respond(tab-port) {
             max-width: 30rem;
             max-height: 30rem;
@@ -15,8 +13,6 @@
     &__link {
         display: block;
     }
-
-
 
     &__text {
         font-size: $default-font-size;

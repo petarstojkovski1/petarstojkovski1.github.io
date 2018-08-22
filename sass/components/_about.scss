@@ -1,6 +1,5 @@
 .about {
-    width: 75%;
-    
+    width: 75%; 
     margin: 0 auto;
     box-shadow: 0 1.5rem 3rem rgba($color-black,0.1);
     border-radius: 3px;
@@ -10,10 +9,7 @@
     @include respond(tab-port) {
         width: 100%;
         padding: 4rem;
-        transform: skewX(0);
-        //Treba da se uradi slika, to se radi u img ne u div konteineru
-        //Treba da se slika iz projekta sredi i da se flex promeni, mozda i da ostane ali da se promeni redosled
-		
+        transform: skewX(0);		
     }
 
     font-size: $default-font-size;
@@ -36,16 +32,14 @@
         
 
         @include respond(tab-port) {
-            transform: skewX(0);
-            
+            transform: skewX(0);      
 		}
     }
     &__image {
         max-width: 40rem;
         max-height: 40rem;
 
-        @include respond(tab-port) {
-            
+        @include respond(tab-port) {       
             max-width: 25rem;
             max-height: 25rem;
 		}

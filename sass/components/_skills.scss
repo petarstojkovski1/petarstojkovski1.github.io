@@ -3,8 +3,7 @@
   &__item {
     position: relative;
     display: inline-block;
-    color:$color-grey-light-2;
-    
+    color:$color-grey-light-2; 
     text-align: center;
   }
 
@@ -15,8 +14,6 @@
     border: 20px solid $color-grey-dark-2;
     border-radius: 100px;
     line-height: 50px;
-
-    
   }
 
   &__img {

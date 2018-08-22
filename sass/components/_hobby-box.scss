@@ -25,13 +25,11 @@
         transform: translateY(-1.5rem) scale(1.03) skewX(12deg);
 
         @include respond(tab-port) {
-            transform:  translateY(-1.5rem) scale(1.03) skewX(0);
-            
+            transform:  translateY(-1.5rem) scale(1.03) skewX(0);        
 		}
     }
 
     &__text {
         font-size: 1.4rem;
     }
-
 }
