@@ -22,9 +22,9 @@
     background-color:$color-white;
 
     &__picture {       
-        float: left;       
+              
         transform: skewX(12deg);
-           
+        text-align: center;
 
         @include respond(tab-port) {
             transform: skewX(0);
@@ -33,7 +33,7 @@
     }
     &__text {
         transform: skewX(12deg);
-        float: right;
+        
 
         @include respond(tab-port) {
             transform: skewX(0);
@@ -43,6 +43,12 @@
     &__image {
         max-width: 40rem;
         max-height: 40rem;
+
+        @include respond(tab-port) {
+            
+            max-width: 25rem;
+            max-height: 25rem;
+		}
     }
    
 
